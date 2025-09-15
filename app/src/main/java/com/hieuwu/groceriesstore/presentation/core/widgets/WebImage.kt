@@ -24,14 +24,14 @@ fun WebImage(
     contentScale = contentScale,
     loading = {
         Image(
-            painter = painterResource(R.drawable.loading_animation),
+            painter = painterResource(id = R.drawable.loading_animation),
             contentDescription = null,
         )
     },
     error = {
         Image(
             modifier = modifier,
-            painter = painterResource(R.drawable.ic_broken_image),
+            painter = painterResource(id = R.drawable.ic_broken_image),
             contentDescription = null,
         )
     }
