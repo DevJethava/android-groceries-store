@@ -24,6 +24,7 @@ fun WebImage(
     contentScale = contentScale,
     loading = {
         Image(
+            modifier = modifier,
             painter = painterResource(id = R.drawable.loading_animation),
             contentDescription = null,
         )
